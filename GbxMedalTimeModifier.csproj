@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>GbxMedalTimeModifier</RootNamespace>
+    <AssemblyName>GbxMedalTimeModifier</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GBX.NET" Version="2.3.4" />
+    <PackageReference Include="GBX.NET.LZO" Version="2.1.4" />
+  </ItemGroup>
+
+</Project>
